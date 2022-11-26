@@ -178,11 +178,23 @@
   
  
   .aboutme{
+    
+    margin-top: 14px;
     border: 2px solid rgb(1, 247, 14);
     border-radius: 3px;
     background-color: black;
     color: white;
     padding: 4px;
     max-width: 377px;
+  }
+  h1{
+    
+    background-color: #0dcc0d;
+    position: absolute;
+  top: -31px;
+  right:881px;
+    float: right;
+    margin-bottom:19px ;
+    border:2px solid #0dcc0d;
   }
   

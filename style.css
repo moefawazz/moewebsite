@@ -13,6 +13,8 @@
     background-color: black;
     margin: 0;
     padding: 0;
+
+
   }
   
   body::-webkit-scrollbar {
@@ -36,7 +38,7 @@
     position: fixed;
     background-color:black /*var(--bg-primary)*/;
     transition: width 600ms ease;
-    overflow: hidden;
+
   }
   
   .navbar-nav {
@@ -178,23 +180,54 @@
   
  
   .aboutme{
-    
+    width: 50%;
+    float: right;
+height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
     margin-top: 14px;
-    border: 2px solid rgb(1, 247, 14);
     border-radius: 3px;
     background-color: black;
     color: white;
-    padding: 4px;
     max-width: 377px;
+ 
   }
   h1{
-    
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
     background-color: #0dcc0d;
-    position: absolute;
-  top: -31px;
-  right:881px;
-    float: right;
-    margin-bottom:19px ;
+    width: 49%;
     border:2px solid #0dcc0d;
+    border-radius: 4px;
+    
   }
-  
+  .parent{
+    
+    margin: 0;
+    padding: 0;
+   
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    justify-content: flex-end;
+    overflow: hidden;
+  }
+p {
+  border: 2px solid rgb(1, 247, 14);
+padding: 11px;
+margin: 0;
+border-radius: 4px;
+}
+
+.projects{
+  color: white;
+  float: left;
+  width: 50%;
+  border: 2px solid white;
+  width: 399px;
+  height: 399px;
+  text-align: center;
+}

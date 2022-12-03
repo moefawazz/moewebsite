@@ -225,9 +225,11 @@ border-radius: 4px;
 .projects{
   color: white;
   float: left;
-  width: 50%;
+  width: 40%;
   border: 2px solid white;
-  width: 399px;
+  width: 599px;
   height: 399px;
   text-align: center;
+  margin-right: 50%;
+  
 }
